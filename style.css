@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;   
+}
+
+.container {
+background-color: aliceblue;
+display: flex;
+flex-direction: column;
+min-height: fit-content;
+width: 55vh;
+margin: 12vh 6vw 0 6vw;
+border-radius: 15px;
+padding: 10px;
+}
+
+.msg {
+    display:flex;
+    flex-direction: row;
+    margin: 0 0 0px 25px;   
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+#sign_in{
+    text-align: left;
+    margin: 15px 0 5px 25px;
+    font-size: 25px;
+}
+
+#new_user{
+   
+}
+#create_acc{
+    margin-right: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 25px 30px 25px ;
+}
+
+.credentials{
+    text-align: left;
+    margin: 5px;
+    width: 100%;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+    height: 30px;
+    padding: 5px;
+    font-size: 1.05rem;
+    font-weight: 100;
+}
+.credentials:hover {
+    background-color: whitesmoke;
+}
+
+
+.err{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 110px 10px 25px;
+    align-items: center;
+    transition: margin 0.3s;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px 10px 25px;
+    align-items: center;
+    transition: margin 0.3s;
+}
+#forgot{
+    font-size: 1.2rem;
+}
+
+
+button {
+    padding: 3px;
+    width: 7rem;
+    background-color: rebeccapurple;
+    color: azure;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(102, 51, 153, 0.834);
+}
+
+.striped{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4px;
+}
+.strip_line{
+    height: 0.7px;
+    width: 100%;
+    background-color: grey;
+}
+#or{
+    margin: 3px;
+    font-size: 0.95rem;
+}
+
+
+.others{
+    margin: 10px 25px 13px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.option{  
+    border: 1.5px solid rgb(137, 137, 137);
+    border-radius: 15px;
+    padding: 6px;
+    margin: 4px;
+    width: 100%;
+    font-size: 1.1rem;
+    font-size: 1.1rem;
+}
+.option:hover{
+    background-color: rgba(128, 128, 128, 0.263);
+    cursor: pointer;
+}
+
+.google{
+    color: #DB4437;
+}
+
+.facebook{
+    color: #187FF2;
+}
+
+.X{
+
+}
+
+i{
+    margin-right: 3px;
+}
